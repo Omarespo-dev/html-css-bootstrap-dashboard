@@ -58,253 +58,330 @@
     </header>
 
     <main>
-        <div class="container text-start">
-            <div class="row mt-4 ">
-              <div class="col-6">
-                <h3>Catalogo libri</h3>
-              </div>
-              <div class="col-6 text-end">
-                <button type="button" class="btn btn-primary">Aggiungi Libro</button>
-              </div>
+        <!-- PARTE CATALOGO LIBRI -->
+        <div class="container container-3  ">
+
+            <div class="container text-start">
+                <div class="row mt-4 ">
+                  <div class="col-6">
+                    <h3>Catalogo libri</h3>
+                  </div>
+                  <div class="col-6 text-end">
+                    <button type="button" class="btn btn-primary">Aggiungi Libro</button>
+                  </div>
+                </div>
+                <!-- PARTE INIZIO TABLE -->
+                <table class="table mt-4" >
+                    <thead>
+                      <tr>
+                        <th scope="col">Titolo</th>
+                        <th scope="col" class="d-none d-md-table-cell">Data Prestito</th>
+                        <th scope="col" colspan="2">Stato</th>
+                        <th scope="col" colspan="2">Azioni</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="row">I pilastri della terra</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                        </td>
+                        
+                        
+                        
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">I promessi sposi</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Il signore degli anelli</td>
+                        <td class="d-none d-md-table-cell">18/10/2023
+                            <td colspan="2">
+                                <span class="badge text-bg-warning text-light ">In Prestito</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Harry Potter e la pietra filosofale</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Il codice Da Vinci</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-danger"> Non Disponibile</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Shining</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">La divina commedia</td>
+                        <td class="d-none d-md-table-cell">21/09/2023
+                            <td colspan="2">
+                                <span class="badge text-bg-warning text-light ">In Prestito</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Il trono di spade</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Il mondo di Sofia</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-danger"> Non Disponibile</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Le cronache di Narnia: il leone, la strega e l'armadio </td>
+                        <td class="d-none d-md-table-cell">25/07/2023
+                            <td colspan="2">
+                                <span class="badge text-bg-warning text-light ">In Prestito</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">Il piccolo principe</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td scope="row">La storia infinita</td>
+                        <td class="d-none d-md-table-cell">-
+                            <td colspan="2">
+                                <span class="badge text-bg-success">Disponibile</span>
+                            </td>
+                        <td>
+                            <div class="d-flex">
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
+                                    <i class="bi bi-pencil-fill "></i> 
+                                </button>
+                            
+                                <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
+                                    <i class="bi bi-trash-fill "></i> 
+                                </button>
+                            </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+              <!-- PARTE FINE TABLE -->
+
+            <!-- PARTE INIZIO TODO-->
+            <div class="container container-lg">
+
+                <div class="container-1 ">
+                    <div class="container text-center border rounded">
+                        <div class="row text-start ">
+                            <div class="col text-start border-bottom">
+                                <h2> Todo</h2>
+                            </div>
+                        </div>
+                    <ul class="list-group text-start ">
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                          <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                          <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti scaduti</label>
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                          <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+                        </li>
+                      </ul>
+                </div>
+            
+
+
+            <div class="container-2 ">
+                <div class="container text-center border rounded">
+                    <div class="row text-start ">
+                        <div class="col text-start border-bottom">
+                            <h2> F.A.Q.</h2>
+                        </div>
+                    </div>
+
+                    <div class="accordion accordion-flush p-2" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Come aggiungere un nuovo libro?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"></div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Come posso accedere all'anagrafica utenti?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"></div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Posso usare questa dashboard da mobile?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"></div>
+                          </div>
+                        </div>
+                      </div>
+                    
+                </div>
             </div>
 
+            
+        
         </div>
-
-        <div class="container ">
-            <table class="table mt-4" >
-                <thead>
-                  <tr>
-                    <th scope="col">Titolo</th>
-                    <th scope="col" class="d-none d-md-table-cell">Data Prestito</th>
-                    <th scope="col" colspan="2">Stato</th>
-                    <th scope="col" colspan="2">Azioni</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td scope="row">I pilastri della terra</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-success">Disponibile</span>
-                        </td>
-                    </td>
-                    
-                    
-                    
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">I promessi sposi</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-success">Disponibile</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">Il signore degli anelli</td>
-                    <td class="d-none d-md-table-cell">18/10/2023
-                        <td colspan="2">
-                            <span class="badge text-bg-warning text-light ">In Prestito</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">Harry Potter e la pietra filosofale</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-success">Disponibile</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">Il codice Da Vinci</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-danger"> Non Disponibile</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">Shining</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-success">Disponibile</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">La divina commedia</td>
-                    <td class="d-none d-md-table-cell">21/09/2023
-                        <td colspan="2">
-                            <span class="badge text-bg-warning text-light ">In Prestito</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">Il trono di spade</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-success">Disponibile</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">Il mondo di Sofia</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-danger"> Non Disponibile</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">Le cronache di Narnia: il leone, la strega e l'armadio </td>
-                    <td class="d-none d-md-table-cell">25/07/2023
-                        <td colspan="2">
-                            <span class="badge text-bg-warning text-light ">In Prestito</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">Il piccolo principe</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-success">Disponibile</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td scope="row">La storia infinita</td>
-                    <td class="d-none d-md-table-cell">-
-                        <td colspan="2">
-                            <span class="badge text-bg-success">Disponibile</span>
-                        </td>
-                    <td>
-                        <div class="d-flex">
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
-                                <i class="bi bi-pencil-fill "></i> 
-                            </button>
-                        
-                            <button class="btn btn-white text-secondary border-dark-subtle border-2 p-1 ">
-                                <i class="bi bi-trash-fill "></i> 
-                            </button>
-                        </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-        </div>
-
+        
 
         
 
