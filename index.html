@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap-dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    
-
-    
-</head>
+  </head>
 
 
 
@@ -21,21 +18,25 @@
             <nav class="navbar navbar-expand-lg bg-body-tertiary text-red">
                 <div class="container-fluid ">
                   <a class="navbar-brand" href="#"><img src="./img (45)/img/duck.png" alt="Bootstrap" width="55" height="55"></a>
-                  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler text-secondary-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
                   </button>
                   <div class="collapse navbar-collapse  " id="navbarSupportedContent" >
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                       <li class="nav-item ">
-                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        <a class="nav-link " aria-current="page" href="#">Catalogo libri</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="./bonus/bonus.html">Nuovo Libro</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Anagrafica Utenti</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                          Storico Prestiti
                         </a>
+                      
                         <ul class="dropdown-menu ">
                           <li><a class="dropdown-item " href="#">Action</a></li>
                           <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -44,12 +45,12 @@
                         </ul>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link " aria-disabled="true">Help</a>
                       </li>
                     </ul>
                     <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search">
+                      <button class="btn " type="submit">Cerca</button>
                     </form>
                   </div>
                 </div>
@@ -73,7 +74,7 @@
                 <!-- PARTE INIZIO TABLE -->
                 <table class="table mt-4" >
                     <thead>
-                      <tr>
+                      <tr >
                         <th scope="col">Titolo</th>
                         <th scope="col" class="d-none d-md-table-cell">Data Prestito</th>
                         <th scope="col" colspan="2">Stato</th>
@@ -81,7 +82,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
+                      <tr class="table-secondary">
                         <td scope="row">I pilastri della terra</td>
                         <td class="d-none d-md-table-cell">-
                             <td colspan="2">
@@ -103,13 +104,15 @@
                             </div>
                         </td>
                       </tr>
-                      <tr>
+                      <tr >
                         <td scope="row">I promessi sposi</td>
-                        <td class="d-none d-md-table-cell">-
+                        <td class="d-none d-md-table-cell">-</td>
                             <td colspan="2">
                                 <span class="badge text-bg-success">Disponibile</span>
                             </td>
-                        <td>
+                          
+                          
+                          <td>
                             <div class="d-flex">
                                 <button class="btn btn-white text-secondary border-dark-subtle border-2 me-2  p-1">
                                     <i class="bi bi-pencil-fill "></i> 
@@ -119,9 +122,9 @@
                                     <i class="bi bi-trash-fill "></i> 
                                 </button>
                             </div>
-                        </td>
+                          </td>
                       </tr>
-                      <tr>
+                      <tr class="table-secondary">
                         <td scope="row">Il signore degli anelli</td>
                         <td class="d-none d-md-table-cell">18/10/2023
                             <td colspan="2">
@@ -139,7 +142,7 @@
                             </div>
                         </td>
                       </tr>
-                      <tr>
+                      <tr class="hover-table">
                         <td scope="row">Harry Potter e la pietra filosofale</td>
                         <td class="d-none d-md-table-cell">-
                             <td colspan="2">
@@ -157,7 +160,7 @@
                             </div>
                         </td>
                       </tr>
-                      <tr>
+                      <tr class="table-secondary">
                         <td scope="row">Il codice Da Vinci</td>
                         <td class="d-none d-md-table-cell">-
                             <td colspan="2">
@@ -193,7 +196,7 @@
                             </div>
                         </td>
                       </tr>
-                      <tr>
+                      <tr class="table-secondary">
                         <td scope="row">La divina commedia</td>
                         <td class="d-none d-md-table-cell">21/09/2023
                             <td colspan="2">
@@ -229,7 +232,7 @@
                             </div>
                         </td>
                       </tr>
-                      <tr>
+                      <tr class="table-secondary">
                         <td scope="row">Il mondo di Sofia</td>
                         <td class="d-none d-md-table-cell">-
                             <td colspan="2">
@@ -265,7 +268,7 @@
                             </div>
                         </td>
                       </tr>
-                      <tr>
+                      <tr class="table-secondary">
                         <td scope="row">Il piccolo principe</td>
                         <td class="d-none d-md-table-cell">-
                             <td colspan="2">
@@ -304,6 +307,7 @@
                     </tbody>
                   </table>
             </div>
+      
               <!-- PARTE FINE TABLE -->
 
             <!-- PARTE INIZIO TODO-->

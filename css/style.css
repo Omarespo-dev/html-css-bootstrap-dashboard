@@ -5,12 +5,26 @@
     
 }
 
-.navbar-nav .nav-link.active {
+
+
+header .nav-link{
     color: gray;
 }
 
+header .nav-link:hover{
+    color:white;
+}
 
-
+header form .btn{
+    background-color: rgb(31, 33, 43);
+    color: white;
+    border: white 1px solid;
+}
+header form .btn:hover{
+    background-color: grey;
+    color: white;
+    
+}
 
 .row{
     /* background-color: red; */
@@ -54,12 +68,35 @@
 
 }
 
+main .container-2 .row{
+    background-color:whitesmoke;
+}
+
+main .container-1 .row{
+    background-color:whitesmoke;
+}
+
+tbody tr:hover td{
+    background-color:rgba(226,227,229,255);
+}
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:992px) {
     .container-lg{
         display: flex;
         margin-left: 20px;
     }
 
+   
     .container-3{
         display: flex;
     }

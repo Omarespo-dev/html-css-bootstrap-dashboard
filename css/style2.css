@@ -1,0 +1,41 @@
+/* second page */
+
+.bg-body-tertiary {
+    background-color: rgb(31, 33, 43) !important;
+    
+}
+
+
+
+header .nav-link{
+    color: gray;
+}
+
+header .nav-link:hover{
+    color:white;
+}
+
+header form .btn{
+    background-color: rgb(31, 33, 43);
+    color: white;
+    border: white 1px solid;
+}
+header form .btn:hover{
+    background-color: grey;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+main .container{
+    height: 1000px;
+    /* background-color: red; */
+    border: 1px dotted black;
+}
